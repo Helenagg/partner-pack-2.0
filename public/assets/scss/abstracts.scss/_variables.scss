@@ -1,0 +1,13 @@
+// Colors
+
+$primary: #3F7C3A;
+$secondary: #49564E;
+$primary-dark: #3A6B34;
+$secondary-light: #315B2C;
+
+:root {
+    --primary: #{$primary};
+    --secondary: #{$secondary};
+    --primary-dark: #{$primary-dark};
+    --secondary-light: #{$secondary-light};
+}
