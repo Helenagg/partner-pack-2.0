@@ -28,5 +28,8 @@ module.exports = {
       }
     },
   },
+  variants: {
+    textColor: ['active'],
+  },
   plugins: [],
 }
