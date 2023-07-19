@@ -64,13 +64,13 @@ const MobileMenu = () => {
                   <div className='relative p-6 flex-auto'>
                     <div className='w-full text-center text-xl font-bold'>
                       <a
-                        href='#'
+                        href='/'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:text-primary'
                       >
                         Inicio
                       </a>
                       <a
-                        href='#'
+                        href='/conocenos'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:border-b-2 hover:border-primary'
                       >
                         Conócenos
