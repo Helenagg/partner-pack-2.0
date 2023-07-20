@@ -77,7 +77,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href='#'
+                  href='/sostenibilidad'
                   className='block text-gray-900 rounded md:pb-2 hover:border-b-4 hover:border-primary active:text-primary'
                 >
                   Sostenibilidad
