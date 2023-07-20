@@ -1,13 +1,16 @@
-import Cover from '@/components/Cover/Cover'
-import React from 'react'
-import Image from 'next/image'
+import Cover from "@/components/Cover/Cover";
+import React from "react";
+import Conocenos from "@/components/Conocenos/Conocenos";
 
-const page = () => {
+const pageConocenos = () => {
   return (
     <div>
+      <div>
         <Cover urlCover='/assets/img/cover/conocenos.webp' />
-        </div>
-  )
-}
+      </div>
+      <Conocenos />
+    </div>
+  );
+};
 
-export default page
+export default pageConocenos;
