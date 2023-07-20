@@ -2,7 +2,7 @@ import Cover from "@/components/Cover/Cover";
 import React from "react";
 import Conocenos from "@/components/Conocenos/Conocenos";
 
-const pageConocenos = () => {
+const PageConocenos = () => {
   return (
     <div>
       <div>
@@ -13,4 +13,4 @@ const pageConocenos = () => {
   );
 };
 
-export default pageConocenos;
+export default PageConocenos;

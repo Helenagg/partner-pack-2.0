@@ -24,10 +24,10 @@ const Sostenibilidad = () => {
       <div className='text-center mb-6'>
         <h1 className='text-secondary'>Sostenibilidad</h1>
       </div>
-      <div className='flex flex-row'>
+      <div className='flex flex-col md:flex-row'>
         {sostenibilidadData.map((element, index) => {
           return (
-            <div key={index} className='flex flex-cols-1 md:w-1/3 mx-2'>
+            <div key={index} className='flex flex-cols-1 w-full md:w-1/3 mx-2 mt-10 md:mt-0'>
               <div className='mx-w-sm rounded overflow-hidden shadow-lg'>
                 <Image
                   src={element.urlImage}
