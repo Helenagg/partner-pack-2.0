@@ -76,7 +76,7 @@ const MobileMenu = () => {
                         Conócenos
                       </a>
                       <a
-                        href='#'
+                        href='/sostenibilidad'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:border-b-4 hover:border-primary'
                       >
                         Sostenibilidad
