@@ -2,7 +2,7 @@ import Cover from "@/components/Cover/Cover";
 import React from "react";
 import Sostenibilidad from "@/components/Sostenibilidad/Sostenibilidad";
 
-const pageSostenibilidad = () => {
+const PageSostenibilidad = () => {
   return (
     <div>
       <div>
@@ -13,4 +13,4 @@ const pageSostenibilidad = () => {
   );
 };
 
-export default pageSostenibilidad;
+export default PageSostenibilidad;
