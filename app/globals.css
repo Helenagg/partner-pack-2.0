@@ -10,10 +10,10 @@
 
 @layer base {
   :root {
-    --primary: #3f7c3a;
-    --secondary: #49564e;
-    --primary-dark: #3a6b34;
-    --secondary-light: #315b2c;
+    --primary: #315b2c;
+    --secondary: #3a6b34;
+    --primary-dark: #49564e;
+    --secondary-light: #3f7c3a;
     --font-roboto: "Roboto", sans-serif;
   }
 
