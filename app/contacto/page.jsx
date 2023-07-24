@@ -6,7 +6,7 @@ const PageContacto = () => {
   return (
     <div>
       <div>
-        <Cover urlCover='/assets/img/cover/contacto.webp' />
+        <Cover urlCover='./assets/img/cover/contacto.webp' />
       </div>
       <Contacto />
     </div>
