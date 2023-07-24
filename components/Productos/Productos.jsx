@@ -14,7 +14,7 @@ const Productos = () => {
       url: "/assets/img/contacto/enfardadora_automatica.webp",
     },
     {
-      name: "cajas",
+      name: "Hola",
       url: "/assets/img/contacto/enfardadora_automatica.webp",
     },
   ];
@@ -30,8 +30,8 @@ const Productos = () => {
           <div className='grid grid-cols-1 md:grid-cols-3 gap-1 my-4 w-full text-center'>
             {url.map((element, index) => {
               return (
-                <div
-                  className='relative max-w-sm mt-4 rounded-lg transform transition ease-in-out shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] duration-1000 delay-[var(--delay)]'
+                <div 
+                  className='relative max-w-sm mt-4 flex rounded-lg transform transition ease-in-out shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] duration-1000 delay-[var(--delay)]'
                   style={{ "--delay": index * 0.1 + "s" }}
                   key={index}
                 >
@@ -45,8 +45,8 @@ const Productos = () => {
                     />
                   </div>
                   {/* <div className=''> */}
-                  <div className='absolute bg-white rounded-lg inset-0 h-full w-full [transform:rotateY(180deg)] [backface-visibility:hidden]'>
-                    <div className='font-bold mb-2'>Cajas</div>
+                  <div className='absolute bg-white rounded-lg flex flex-col justify-center inset-0 h-full w-full [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+                    <div className='font-bold mb-2'>{element.name}</div>
 
                     <a className='text-gray-700 text-base flex justify-center'>
                       Ver Producto
