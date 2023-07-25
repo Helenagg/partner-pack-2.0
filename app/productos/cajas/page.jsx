@@ -26,21 +26,21 @@ const pageCajas = () => {
       slug: "caja-carton",
     },
     {
-      url: "/assets/img/cajas/cajas-carton.webp",
+      url: "/assets/img/cajas/caja-carton-movil.webp",
       nameCaja: "Caja carton",
       width: "1023",
       height: "576",
       slug: "caja-carton",
     },
     {
-      url: "/assets/img/cajas/cajas-carton-exposicion.webp",
+      url: "/assets/img/cajas/caja-portatil.webp",
       nameCaja: "Caja carton",
       width: "1024",
       height: "576",
       slug: "caja-carton",
     },
     {
-      url: "/assets/img/cajas/mas-cajas.webp",
+      url: "/assets/img/cajas/cajas-exposicion.webp",
       nameCaja: "Caja carton",
       width: "709",
       height: "576",
@@ -57,11 +57,11 @@ const pageCajas = () => {
             <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
           </div>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-2'>
+        <div className='grid grid-cols-1 md:grid-cols-3'>
           {cardData &&
             cardData.map((element, index) => {
               return (
-                <div key={index} className='text-center'>
+                <div key={index} className='text-center mx-3 my-3'>
                   <CardProductos
                     urlCard={element.url}
                     alt={element.nameCaja}
