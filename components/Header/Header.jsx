@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   AiOutlineFacebook,
   AiOutlineLinkedin,
@@ -46,7 +47,14 @@ const Header = () => {
       <nav className='bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700'>
         <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
           <a href='#' className='flex items-center'>
-            <img src='./assets/img/logo.jpg' className='h-12 mr-3' alt='Logo' />
+            <Image 
+            src='/assets/img/logo.webp'
+            width={100}
+            height={47}
+            className='h-12 mr-3' 
+            alt='Logo'
+            />
+           
           </a>
           {/* Mobile Menu */}
           <div className='md:hidden'>
