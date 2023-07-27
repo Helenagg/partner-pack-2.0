@@ -9,13 +9,14 @@ const FormContacto = () => {
             <div className='card bg-primary-dark shadow-lg w-full h-full rounded-3xl absolute transform rotate-6'></div>
             <div className='relative w-full rounded-3xl px-6 py-4 bg-gray-100 shadow-md'>
               <label
-                for=''
+                for='contact'
                 className='block mt-3 text-sm text-gray-700 text-center font-semibold'
               >
                 <h2 className='text-xl'>Contacta con nosotros</h2>
               </label>
               <div className='mt-7'>
                 <input
+                id='contact'
                   type='text'
                   placeholder='Empresa'
                   className='text-xs p-2 mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0'
