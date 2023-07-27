@@ -4,7 +4,7 @@
 
 @layer components {
     .btn-white {
-        @apply border-2 border-primary rounded-full bg-white text-base text-center font-bold flex items-center p-2 px-4;
+        @apply border-2 border-primary rounded-full bg-white text-base text-center font-bold flex items-center justify-center p-2 px-4;
         
     }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Cover = (props) => {
   return (
@@ -13,18 +14,18 @@ const Cover = (props) => {
       />
       
         <div className='absolute bottom-6 left-6 flex flex-col md:flex-row items-start gap-4 p-4'>
-          <a
-            href=''
+          <Link
+            href='/productos'
             className='btn-white'
           >
             Productos
-          </a>
-          <a
-            href=''
+          </Link>
+          <Link
+            href='/contacto'
             className='btn-white'
           >
             Contacto
-          </a>
+          </Link>
         </div>
      
     </div>
