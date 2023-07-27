@@ -2,6 +2,7 @@ import React from 'react';
 import Cover from '@/components/Cover/Cover';
 import Informacion from '@/components/Home/Informacion';
 import Productos from '@/components/Productos/Productos';
+import Formulario from '@/components/Home/Formulario';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
     <Cover urlCover='/assets/img/cover/banderas.webp'/>
     <Informacion />
     <Productos />
+    <Formulario />
       
     {/* </div> */}
 
