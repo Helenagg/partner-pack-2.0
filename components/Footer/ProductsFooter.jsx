@@ -1,14 +1,33 @@
+import Link from "next/link";
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
 
 const ProductsFooter = () => {
   const productsData = [
-    "Cajas y Palets",
-    "Precintadoras",
-    "Protección y Fijación",
-    "Envolvedoras",
-    "Flejadoras",
-    "Material de Embajale",
+    {
+      name: "Cajas y Palets",
+      slug: "cajas",
+    },
+    {
+      name: "Precintadoras",
+      slug: "precintadoras",
+    },
+    {
+      name: "Protección y Fijación",
+      slug: "proteccion",
+    },
+    {
+      name: "Envolvedoras",
+      slug: "envolvedoras",
+    },
+    {
+      name: "Flejadoras",
+      slug: "flejadoras",
+    },
+    {
+      name: "Material de Embajale",
+      slug: "embalaje",
+    },
   ];
 
   return (
@@ -20,7 +39,12 @@ const ProductsFooter = () => {
           return (
             <div key={index} className='flex flex-inline mt-3 text-sm'>
               <FaAngleRight className='mx-2' size={20} />
-              <p>{element}</p>
+              <Link
+                href={`/productos/${element.slug}`}
+                className='cursor-pointer'
+              >
+                {element.name}
+              </Link>
             </div>
           );
         })}
