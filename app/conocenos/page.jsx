@@ -1,17 +1,17 @@
-import React from "react";
 import Cover from "@/components/Cover/Cover";
-import Informacion from "@/components/Home/Informacion";
-import Productos from "@/components/Productos/Productos";
+import React from "react";
+import Conocenos from "@/components/Conocenos/Conocenos";
 import Formulario from "@/components/Home/Formulario";
 import HomeContacto from "@/components/Home/HomeContacto";
 
-const Home = () => {
+const PageConocenos = () => {
   return (
-    <main className=''>
-      <Cover urlCover='/assets/img/cover/banderas.webp' />
-      <Informacion />
-      <Productos />
-      <div className='container mx-auto px-5 py-8'>
+    <div>
+      <div>
+        <Cover urlCover='/assets/img/cover/conocenos.webp' />
+      </div>
+      <Conocenos />
+      <div className='container mx-auto px-5 py-8 mt-60'>
         <div className='text-center mb-2'>
           <div className='flex justify-center'>
             <hr className='border-secondary-light mb-4 border-1 w-24 rounded-md' />
@@ -20,8 +20,8 @@ const Home = () => {
         </div>
       </div>
       <HomeContacto />
-    </main>
+    </div>
   );
 };
 
-export default Home;
+export default PageConocenos;

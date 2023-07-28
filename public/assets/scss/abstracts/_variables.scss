@@ -1,9 +1,9 @@
 // Colors
 
-$primary: #3F7C3A;
-$secondary: #49564E;
-$primary-dark: #3A6B34;
-$secondary-light: #315B2C;
+$primary: #315b2c;
+$secondary: #3a6b34;
+$primary-dark: #49564e;
+$secondary-light: #3f7c3a;
 
 :root {
     --primary: #{$primary};
@@ -11,3 +11,4 @@ $secondary-light: #315B2C;
     --primary-dark: #{$primary-dark};
     --secondary-light: #{$secondary-light};
 }
+
