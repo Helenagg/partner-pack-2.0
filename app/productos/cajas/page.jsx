@@ -9,7 +9,7 @@ const pageCajas = () => {
       nameCaja: "Caja carton",
       width: "1024",
       height: "576",
-      slug: "caja-carton",
+      slug: "/cajas/cajas-carton",
     },
     {
       url: "/assets/img/cajas/caja-portatil.webp",
