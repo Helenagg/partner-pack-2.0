@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import FormContacto from "@/components/Contacto/FormContacto";
+import Formulario from "@/components/Home/Formulario";
 
 const pageCajascarton = () => {
   return (
@@ -10,8 +10,8 @@ const pageCajascarton = () => {
         <div className='flex justify-center'>
           <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
         </div>
-        <div className='flex flex-col-1 md:flex-row mt-2 md:mt-4'>
-          <div className='w-1/3 my-4'>
+        <div className='flex flex-col md:flex-row mt-2 md:mt-4'>
+          <div className='order-first md:w-2/4 my-4'>
             <div className='grid gap-4'>
               <div>
                 <Image
@@ -71,8 +71,10 @@ const pageCajascarton = () => {
               </div>
             </div>
           </div>
-          <div className='w-1/3'>
-            <h1 className='text-2xl font-semibold text-left mx-4'>Cajas de Carton</h1>
+          <div className='order-last md:w-2/4 ml-4'>
+            <h1 className='text-2xl font-semibold text-left mx-4'>
+              Cajas de Carton
+            </h1>
             <p className='mt-2 mx-4 text-left'>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry standard dummy text
@@ -86,9 +88,9 @@ const pageCajascarton = () => {
               Lorem Ipsum.
             </p>
           </div>
-          <div className="w:1/3 mx-2 mt-2 md:mt-44 flex items-center">
-            <FormContacto />
-          </div>
+        </div>
+        <div className="mt-4">
+          <Formulario />
         </div>
       </div>
     </div>
