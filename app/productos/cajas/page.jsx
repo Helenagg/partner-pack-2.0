@@ -9,42 +9,48 @@ const pageCajas = () => {
       nameCaja: "Caja carton",
       width: "1024",
       height: "576",
-      slug: "caja-carton",
+      slug: "/productos/cajas/cajas-carton",
+      textSlug: "Ver Producto"
     },
     {
       url: "/assets/img/cajas/caja-portatil.webp",
       nameCaja: "Caja carton",
       width: "1024",
       height: "576",
-      slug: "caja-carton",
+      slug: "/productos/cajas/cajas-carton",
+      textSlug: "Ver Producto"
     },
     {
       url: "/assets/img/cajas/cajas-exposicion.webp",
       nameCaja: "Caja carton",
       width: "742",
       height: "576",
-      slug: "caja-carton",
+      slug: "/productos/cajas/cajas-carton",
+      textSlug: "Ver Producto"
     },
     {
       url: "/assets/img/cajas/caja-carton-movil.webp",
       nameCaja: "Caja carton",
       width: "1023",
       height: "576",
-      slug: "caja-carton",
+      slug: "/productos/cajas/cajas-carton",
+      textSlug: "Ver Producto"
     },
     {
       url: "/assets/img/cajas/caja-portatil.webp",
       nameCaja: "Caja carton",
       width: "1024",
       height: "576",
-      slug: "caja-carton",
+      slug: "/productos/cajas/cajas-carton",
+      textSlug: "Ver Producto"
     },
     {
       url: "/assets/img/cajas/cajas-exposicion.webp",
       nameCaja: "Caja carton",
       width: "709",
       height: "576",
-      slug: "caja-carton",
+      slug: "/productos/cajas/cajas-carton",
+      textSlug: "Ver Producto"
     },
   ];
   return (
@@ -69,6 +75,7 @@ const pageCajas = () => {
                     width={element.width}
                     height={element.height}
                     slug={element.slug}
+                    textSlug={element.textSlug}
                   />
                 </div>
               );

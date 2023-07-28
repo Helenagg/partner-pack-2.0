@@ -6,14 +6,14 @@ import Link from "next/link";
 const Productos = () => {
   const url = [
     {
-      name: "cajas",
+      name: "Cajas",
       url: "/assets/img/contacto/enfardadora_automatica.webp",
       slug: "cajas",
     },
     {
-      name: "cajas",
+      name: "Material de Embalaje",
       url: "/assets/img/contacto/enfardadora_automatica.webp",
-      slug: "cajas",
+      slug: "embalaje",
     },
     {
       name: "Hola",
