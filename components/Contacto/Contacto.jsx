@@ -2,22 +2,26 @@ import React from "react";
 import Image from "next/image";
 import FormContacto from "./FormContacto";
 import MapContacto from "./MapContacto";
+import Link from "next/link";
 
 const Contacto = () => {
   const contactData = [
     {
       name: "Direccion",
       urlImage: "/assets/img/contacto/enfardadora_automatica.webp",
+      link: "https://goo.gl/maps/2V6zaA55KFXeTDTE6",
       content: `<p>Calle Hierro 71,</p><p>28850 Torrejón de Ardoz</p>`,
     },
     {
       name: "Teléfonos de contacto",
       urlImage: "/assets/img/contacto/enfardadora_automatica.webp",
+      link: "tel:+34 672226122",
       content: "<p>672 226 122</p><p>918 281 264</p>",
     },
     {
       name: "Email",
       urlImage: "/assets/img/contacto/enfardadora_automatica.webp",
+      link: "mailto:administracion@partnerpack.es",
       content: `<p className='text-sm'>administracion@partnerpack.es</p>`,
     },
   ];
@@ -45,10 +49,13 @@ const Contacto = () => {
                     alt={element.name}
                   />
                 </div>
-                <div
-                  dangerouslySetInnerHTML={{ __html: element.content }}
+                <Link
+                  href={element.link}
+                  target="_blank"
                   className='absolute text-white font-bold text-center z-50 text-xl block justify-center'
-                />
+                >
+                  <div dangerouslySetInnerHTML={{ __html: element.content }} />
+                </Link>
               </div>
             );
           })}
