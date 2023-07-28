@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const CardProductos = (props) => {
   return (
-    <div className='max-w-sm rounded-lg overflow-hidden shadow-lg'>
+    <div className='max-w-sm rounded-lg overflow-hidden shadow-lg shadow-slate-700'>
       <div className="relative">
       <Image
         src={props.urlCard}
@@ -17,12 +17,15 @@ const CardProductos = (props) => {
       <div className="absolute top-0 left-0 w-full h-full bg-primary opacity-50"></div>
       </div>
       <div className='px-6 py-4 bg-primary/50'>
-        <div className='font-bold text-xk mb-2'>{props.name}</div>
+        <div className='font-bold text-xl mb-2'>{props.name}</div>
+        <div className="">
+          <p className="text-sm mb-2">{props.content}</p>
+        </div>
         <Link
-          href={`/productos/${props.slug}`}
-          className='text-gray-700 text-base flex justify-center'
+          href={props.slug}
+          className='text-gray-700 font-bold text-base flex justify-center'
         >
-          Ver Producto
+          {props.textSlug}
           <AiOutlineArrowRight className='mx-4 mt-1' />
         </Link>
       </div>
