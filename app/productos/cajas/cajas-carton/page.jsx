@@ -13,7 +13,7 @@ const pageCajascarton = () => {
         <div className='flex flex-col md:flex-row mt-2 md:mt-4'>
           <div className='order-first md:w-2/4 my-4'>
             <div className='grid gap-4'>
-              <div>
+              <div className="shadow-lg shadow-slate-700 rounded-lg">
                 <Image
                   className='h-auto max-w-full rounded-lg'
                   src='/assets/img/cajas/caja-carton-movil.webp'
@@ -23,7 +23,7 @@ const pageCajascarton = () => {
                 />
               </div>
               <div className='grid grid-cols-5 gap-4'>
-                <div>
+                <div className="shadow-lg shadow-slate-700 rounded-lg">
                   <Image
                     className='h-auto max-w-full rounded-lg'
                     src='/assets/img/cajas/caja-portatil.webp'
@@ -32,7 +32,7 @@ const pageCajascarton = () => {
                     height={576}
                   />
                 </div>
-                <div>
+                <div className="shadow-lg shadow-slate-700 rounded-lg">
                   <Image
                     className='h-auto max-w-full rounded-lg'
                     src='/assets/img/cajas/cajas-exposicion.webp'
@@ -41,7 +41,7 @@ const pageCajascarton = () => {
                     height={576}
                   />
                 </div>
-                <div>
+                <div className="shadow-lg shadow-slate-700 rounded-lg">
                   <Image
                     className='h-auto max-w-full rounded-lg'
                     src='/assets/img/cajas/caja-carton-movil.webp'
@@ -50,7 +50,7 @@ const pageCajascarton = () => {
                     height={576}
                   />
                 </div>
-                <div>
+                <div className="shadow-lg shadow-slate-700 rounded-lg">
                   <Image
                     className='h-auto max-w-full rounded-lg'
                     src='/assets/img/cajas/caja-portatil.webp'
@@ -59,7 +59,7 @@ const pageCajascarton = () => {
                     height={576}
                   />
                 </div>
-                <div>
+                <div className="shadow-lg shadow-slate-700 rounded-lg">
                   <Image
                     className='h-auto max-w-full rounded-lg'
                     src='/assets/img/cajas/cajas-exposicion.webp'
