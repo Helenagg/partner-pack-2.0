@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const DropdownMenu = () => {
@@ -44,28 +45,28 @@ const DropdownMenu = () => {
           aria-labelledby='dropdownLargeButton'
         >
           <li>
-            <a
+            <Link
               href='#'
               className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
             >
               Dashboard
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href='#'
               className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
             >
               Settings
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href='#'
               className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
             >
               Earnings
-            </a>
+            </Link>
           </li>
         </ul>
         
