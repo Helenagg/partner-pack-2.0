@@ -4,6 +4,7 @@ import Informacion from "@/components/Home/Informacion";
 import Productos from "@/components/Productos/Productos";
 import Formulario from "@/components/Home/Formulario";
 import HomeContacto from "@/components/Home/HomeContacto";
+import ButtonInit from "@/components/ButtonInit/ButtonInit";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         </div>
       </div>
       <HomeContacto />
+      <ButtonInit />
     </main>
   );
 };
