@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className=''>
       <TopBar />
-      <nav className='bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700'>
+      <nav className='bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 fixed w-full z-50 hover:top-0 animate-sticky'>
         <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
           <Link href='/' className='flex items-center'>
             <Image
