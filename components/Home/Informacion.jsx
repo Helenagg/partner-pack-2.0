@@ -21,11 +21,11 @@ const Informacion = () => {
                   height={786}
                   className='rounded-lg max-w-full max-h-full'
                 />
-                <div className='absolute rounded-lg top-0 left-0 w-full h-full bg-primary/50 flex flex-col items-center justify-center'>
-                  <h1 className='text-xl font-bold text-white mb-4'>
+                <div className='absolute rounded-lg top-0 left-0 w-full h-full bg-primary/50 flex flex-col items-center justify-center p-2 md:p-0'>
+                  <h1 className='text-sm md:text-xl font-bold text-white mt-16 md:mt-0 mb-4'>
                     ¿ Quieres más información ?
                   </h1>
-                  <p className='p-2 text-white'>
+                  <p className='p-2 text-xs md:text-base text-white'>
                     PartnerPack ofrece mucho más que sistemas, maquinaria,
                     finales de línea y consumibles de embalaje. Ofrece
                     soluciones. Cuánto más describas tu necesidad o proceso,
