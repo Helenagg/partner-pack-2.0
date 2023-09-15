@@ -30,7 +30,7 @@ const MapFooter = () => {
     },
   ];
   return (
-    <div className='flex flex-col w-1/4 mx-4'>
+    <div className='flex flex-col w-full md:w-1/4 mx-4 items-start justify-items-start'>
       <h1 className='text-xl p-4'>Mapa de la Web</h1>
       <hr className='border-primary-dark m-2 border-1 w-24 rounded-md' />
       {mapData &&

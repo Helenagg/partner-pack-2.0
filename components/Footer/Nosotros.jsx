@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Nosotros = () => {
   return (
-    <div className='flex flex-col w-1/4 mx-4'>
+    <div className='flex flex-col w-full md:w-1/4 mx-4'>
       <h1 className='text-xl p-4'>Nosotros</h1>
       <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
       <div className='my-3'>

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const ContactFooter = () => {
   return (
-    <div className='flex flex-col w-1/4 mx-4'>
+    <div className='flex flex-col w-full md:w-1/4 mx-4 items-start justify-items-start md:items-start'>
       <h1 className='text-xl p-4'>Contacto</h1>
       <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
       <div className='flex flex-inline mt-3 text-sm'>
