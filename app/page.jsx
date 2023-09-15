@@ -8,7 +8,7 @@ import ButtonInit from "@/components/ButtonInit/ButtonInit";
 
 const Home = () => {
   return (
-    <main className=''>
+    <main className='mt-28' id="init">
       <Cover urlCover='/assets/img/cover/banderas.webp' />
       <Informacion />
       <Productos />

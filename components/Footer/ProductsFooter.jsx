@@ -5,24 +5,24 @@ import { FaAngleRight } from "react-icons/fa";
 const ProductsFooter = () => {
   const productsData = [
     {
-      name: "Cajas y Palets",
-      slug: "cajas",
+      name: "Ecoembalaje",
+      slug: "ecoembalaje",
     },
     {
-      name: "Precintadoras",
-      slug: "precintadoras",
+      name: "Maquinaria",
+      slug: "maquinaria",
     },
     {
-      name: "Protección y Fijación",
-      slug: "proteccion",
+      name: "Film Estirable",
+      slug: "filmEstirable",
     },
     {
-      name: "Envolvedoras",
-      slug: "envolvedoras",
+      name: "Relleno y Protección",
+      slug: "rellenoProteccion",
     },
     {
-      name: "Flejadoras",
-      slug: "flejadoras",
+      name: "Palets y Cajas de Plástico",
+      slug: "paletsCajas",
     },
     {
       name: "Material de Embajale",

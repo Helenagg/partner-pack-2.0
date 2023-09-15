@@ -54,7 +54,7 @@ const pageCajas = () => {
     },
   ];
   return (
-    <div>
+    <div className="mt-28">
       <Cover urlCover='/assets/img/cover/cajas.webp' />
       <div className='container mx-auto px-5 py-8'>
         <div className='text-center mb-6'>
