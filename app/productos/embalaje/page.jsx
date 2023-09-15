@@ -66,7 +66,7 @@ const pageEmbalaje = () => {
   ];
 
   return (
-    <div className='container mx-auto px-5 py-8'>
+    <div className='container mt-28 mx-auto px-5 py-8'>
       <div className='text-center mb-6'>
         <h1 className='text-2xl font-bold'>Material de Embalaje</h1>
         <div className='flex justify-center'>

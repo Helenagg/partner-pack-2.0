@@ -9,8 +9,8 @@ import {
 
 const TopBar = () => {
   return (
-    <nav className='bg-primary text-white' id='menu'>
-      <div className='flex flex-inline justify-between items-center mx-auto max-w-screen-xl p-4'>
+    <nav className='bg-primary text-white'>
+      <div className='flex flex-inline justify-between items-center mx-auto max-w-screen-xl p-2'>
         <div className='flex flex-inline font-bold'>
           <Link href='tel:+34 918281264' className='flex flex-inline'>
             <AiOutlinePhone className='h-6' />
