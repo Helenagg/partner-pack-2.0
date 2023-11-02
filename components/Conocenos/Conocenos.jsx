@@ -5,9 +5,12 @@ import Link from "next/link";
 const Conocenos = () => {
   return (
     <>
-      <div className='container mx-auto px-5 py-8 mt-2'>
+      <div className='container mx-auto px-5 py-8'>
         <div className='text-center mb-6'>
-          <h1 className='text-secondary'>Conoce Partner Pack</h1>
+          <h1 className='text-2xl font-bold'>Conoce Partner Pack</h1>
+          <div className="flex justify-center">
+            <hr className="border-secondary-light m-2 border-1 w-24 rounded-md" />
+          </div>
         </div>
         <div className='lg:flex'>
           <div className='w-full flex flex-col md:w-2/3 md:relative rounded-lg'>
