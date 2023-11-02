@@ -6,19 +6,19 @@ import Link from "next/link";
 const Productos = () => {
   const url = [
     {
-      name: "Cajas",
+      name: "Embalaje Ecológico",
       url: "/assets/img/contacto/enfardadora_automatica.webp",
-      slug: "cajas",
+      slug: "ecologico",
+    },
+    {
+      name: "Maquinaria",
+      url: "/assets/img/contacto/enfardadora_automatica.webp",
+      slug: "maquinaria",
     },
     {
       name: "Material de Embalaje",
       url: "/assets/img/contacto/enfardadora_automatica.webp",
       slug: "embalaje",
-    },
-    {
-      name: "Hola",
-      url: "/assets/img/contacto/enfardadora_automatica.webp",
-      slug: "cajas",
     },
   ];
 

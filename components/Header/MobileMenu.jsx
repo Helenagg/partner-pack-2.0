@@ -97,10 +97,24 @@ const MobileMenu = () => {
                           <Link
                           href='/productos/cajas'
                           >
-                          Cajas y Palets
+                          Embalaje Ecológico
                           </Link>
                         </li>
                         <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
+                        <Link
+                          href='/productos/cajas'
+                          >
+                          Maquinaria
+                          </Link>
+                        </li>
+                        <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
+                        <Link
+                          href='/productos/cajas'
+                          >
+                          Material de Embalaje
+                          </Link>
+                        </li>
+                        {/* <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
                         <Link
                           href='/productos/cajas'
                           >
@@ -120,21 +134,7 @@ const MobileMenu = () => {
                           >
                           Cajas y Palets
                           </Link>
-                        </li>
-                        <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Cajas y Palets
-                          </Link>
-                        </li>
-                        <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Cajas y Palets
-                          </Link>
-                        </li>
+                        </li> */}
                       </ul>
                       <Link
                         href='#'
