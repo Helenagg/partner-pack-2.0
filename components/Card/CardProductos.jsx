@@ -13,7 +13,6 @@ const CardProductos = (props) => {
             alt={props.alt}
             width={props.width}
             height={props.height}
-            objectFit='contein'
             className='w-full h-64'
           />
         </div>
