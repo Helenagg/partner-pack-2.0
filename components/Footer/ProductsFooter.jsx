@@ -5,7 +5,7 @@ import { FaAngleRight } from "react-icons/fa";
 const ProductsFooter = () => {
   const productsData = [
     {
-      name: "Ecoembalaje",
+      name: "Embalaje Ecológico",
       slug: "ecoembalaje",
     },
     {
@@ -13,19 +13,19 @@ const ProductsFooter = () => {
       slug: "maquinaria",
     },
     {
-      name: "Film Estirable",
+      name: "Material de Embajale",
       slug: "filmEstirable",
     },
     {
-      name: "Relleno y Protección",
+      name: "Nada",
       slug: "rellenoProteccion",
     },
     {
-      name: "Palets y Cajas de Plástico",
+      name: "Nada",
       slug: "paletsCajas",
     },
     {
-      name: "Material de Embajale",
+      name: "Nada",
       slug: "embalaje",
     },
   ];
