@@ -95,7 +95,7 @@ const pageEmbalaje = () => {
           <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
         </div>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-3'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
         {cardData &&
           cardData.map((element, index) => {
             return (
