@@ -6,7 +6,7 @@ const ProductsFooter = () => {
   const productsData = [
     {
       name: "Embalaje Ecológico",
-      slug: "ecoembalaje",
+      slug: "ecologico",
     },
     {
       name: "Maquinaria",
@@ -14,7 +14,7 @@ const ProductsFooter = () => {
     },
     {
       name: "Material de Embajale",
-      slug: "filmEstirable",
+      slug: "embalaje",
     },
     {
       name: "Nada",
