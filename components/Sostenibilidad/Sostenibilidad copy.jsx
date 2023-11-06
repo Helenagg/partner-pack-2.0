@@ -22,41 +22,19 @@ const Sostenibilidad = () => {
   return (
     <div className='container mx-auto px-5 py-8'>
       <div className='text-center mb-6'>
-        <h1 className='text-2xl font-bold'>Embalaje Ecológico</h1>
-        <div className='flex justify-center'>
-          <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
-        </div>
+        <h1 className='text-secondary'>Sostenibilidad</h1>
       </div>
-      <div className='relative after:absolute after:inset-0 after:z-0 after:block flex flex-col justify-center rounded-lg'>
-        <div className='relative'>
-          <Image
-            src='/assets/img/ecologico/3r.webp'
-            alt='3r'
-            width={1877}
-            height={800}
-            className='rounded-lg'
-          />
-          <div className='absolute inset-0 bg-secondary opacity-30 rounded-lg'></div>
-        </div>
-        <div className='absolute text-white font-bold w-2/3 p-4'>
-          <p>
-            Te acompañamos en la toma de decisiones para la transición entre tus
-            procesos de embalaje actuales y la transformación R-Evolucionaria
-            hacia procesos de embalaje realmente sostenibles y circulares
-          </p>
-        </div>
-      </div>
-      <div className='mx-auto px-5 py-8 text-center'>
-        <p className='font-bold'>Nuestros principios son:</p>
-      </div>
-      <div className='flex flex-col md:flex-row mt-4'>
+      <div className='flex flex-col md:flex-row'>
         {sostenibilidadData.map((element, index) => {
           return (
-            <div
-              key={index}
-              className='flex flex-cols-1 w-full md:w-1/3 mx-2 mt-10 md:mt-0'
-            >
+            <div key={index} className='flex flex-cols-1 w-full md:w-1/3 mx-2 mt-10 md:mt-0'>
               <div className='mx-w-sm rounded overflow-hidden shadow-lg'>
+                <Image
+                  src={element.urlImage}
+                  width={200}
+                  height={200}
+                  alt={element.name}
+                />
                 <div className='px-6 py-4'>
                   <div className='font-bold text-xl mb-2'>{element.name}</div>
                   <div
