@@ -69,7 +69,7 @@ const pageEmbalaje = () => {
   ];
 
   return (
-    <div className='container mt-28'>
+    <div className='mt-28'>
       <div>
         <Cover urlCover='/assets/img/ecologico/packaging-tape-recyclable-box.webp' />
       </div>
@@ -78,7 +78,7 @@ const pageEmbalaje = () => {
       <div className='flex justify-center'>
         <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
       </div>
-      <div className='text-center mt-2 mb-6 mx-auto px-5 py-8'>
+      <div className='text-center mt-2 mb-6 container mx-auto px-5 py-8'>
         <Formulario />
       </div>
     </div>
