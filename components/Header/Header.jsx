@@ -47,14 +47,14 @@ const Header = () => {
                   Conócenos
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href='/sostenibilidad'
                   className='block text-gray-900 md:pb-2 hover:border-b-4 hover:border-primary active:text-primary'
                 >
                   Sostenibilidad
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <DropdownMenu />
               </li>

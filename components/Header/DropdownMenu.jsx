@@ -46,7 +46,7 @@ const DropdownMenu = () => {
         >
           <li>
             <Link
-              href='#'
+              href='/productos/ecologico'
               className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
             >
              Embalaje Ecológico
@@ -54,7 +54,7 @@ const DropdownMenu = () => {
           </li>
           <li>
             <Link
-              href='#'
+              href='/productos/maquinaria'
               className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
             >
               Maquinaria
@@ -62,7 +62,7 @@ const DropdownMenu = () => {
           </li>
           <li>
             <Link
-              href='#'
+              href='/productos/embalaje'
               className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
             >
               Material de Embalaje

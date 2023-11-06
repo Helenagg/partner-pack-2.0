@@ -94,47 +94,18 @@ const MobileMenu = () => {
                       </Link>
                       <ul>
                         <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                          <Link
-                          href='/productos/cajas'
-                          >
-                          Embalaje Ecológico
+                          <Link href='/productos/ecologico'>
+                            Embalaje Ecológico
                           </Link>
                         </li>
                         <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Maquinaria
-                          </Link>
+                          <Link href='/productos/maquinaria'>Maquinaria</Link>
                         </li>
                         <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Material de Embalaje
+                          <Link href='/productos/embalaje'>
+                            Material de Embalaje
                           </Link>
                         </li>
-                        {/* <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Cajas y Palets
-                          </Link>
-                        </li>
-                        <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Cajas y Palets
-                          </Link>
-                        </li>
-                        <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Cajas y Palets
-                          </Link>
-                        </li> */}
                       </ul>
                       <Link
                         href='#'
