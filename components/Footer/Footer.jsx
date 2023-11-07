@@ -7,7 +7,7 @@ import Nosotros from "./Nosotros";
 const Footer = () => {
   return (
     <div className='bg-gradient-to-r from-slate-900 to-primary text-white'>
-      <div className='flex flex-row gap-4'>
+      <div className='flex flex-col md:flex-row gap-0 md:gap-4'>
         <ContactFooter />
         <ProductsFooter />
         <MapFooter />
