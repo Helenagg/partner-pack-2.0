@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import DropdownMenu from "./DropdownMenu";
 import MobileMenu from "./MobileMenu";
@@ -6,6 +7,16 @@ import TopBar from "./TopBar";
 import Link from "next/link";
 
 const Header = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const closeMenu = () => {
+    toggleDropdown(false);
+  };
+
   return (
     <header className='fixed z-50 w-full top-0'>
       <TopBar />
@@ -22,7 +33,7 @@ const Header = () => {
           </Link>
           {/* Mobile Menu */}
           <div className='md:hidden'>
-            <MobileMenu />
+            <MobileMenu isOpen={isDropdownOpen} closeMenu={closeMenu}/>
           </div>
           {/* Menu */}
           <div
@@ -56,7 +67,7 @@ const Header = () => {
                 </Link>
               </li> */}
               <li>
-                <DropdownMenu />
+                <DropdownMenu isOpen={isDropdownOpen} closeMenu={closeMenu} />
               </li>
               <li>
                 <Link
