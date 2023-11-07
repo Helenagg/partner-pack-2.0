@@ -12,10 +12,10 @@ const MapFooter = () => {
       name: "Conócenos",
       slug: "/conocenos",
     },
-    {
-      name: "Sostenibilidad",
-      slug: "/sostenibilidad",
-    },
+    // {
+    //   name: "Sostenibilidad",
+    //   slug: "/sostenibilidad",
+    // },
     {
       name: "Productos",
       slug: "/productos",
@@ -30,9 +30,9 @@ const MapFooter = () => {
     },
   ];
   return (
-    <div className='flex flex-col w-1/4 mx-4'>
-      <h1 className='text-xl p-4'>Mapa de la Web</h1>
-      <hr className='border-primary-dark m-2 border-1 w-24 rounded-md' />
+    <div className='flex flex-col w-full md:w-1/4 mx-4'>
+      <h1 className='text-xl p-2 md:p-4'>Mapa de la Web</h1>
+      <hr className='border-secondary-light m-0 md:m-2 border-1 w-3/4 md:w-24 rounded-md' />
       {mapData &&
         mapData.map((element, index) => {
           return (
