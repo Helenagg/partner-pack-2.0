@@ -4,11 +4,9 @@ import { GrClose } from "react-icons/gr";
 import Image from "next/image";
 import Link from "next/link";
 
-const MobileMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClick = () => {
-    setIsOpen(!isOpen);
+const MobileMenu = ({ isOpen, closeMenu }) => {
+  const handleOptionClick = () => {
+    closeMenu();
   };
 
   return (
@@ -21,7 +19,7 @@ const MobileMenu = () => {
           className='inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600'
           aria-controls='navbar-dropdown'
           aria-expanded='false'
-          onClick={handleClick}
+          onClick={handleOptionClick}
         >
           <span className='sr-only'>Open main menu</span>
           <svg
@@ -49,7 +47,11 @@ const MobileMenu = () => {
                 <div className='border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none'>
                   {/*header*/}
                   <div className='flex items-start justify-between p-5 mt-4 border-b border-solid border-slate-200 rounded-t'>
-                    <Link href='/' className='cursor-pointer'>
+                    <Link
+                      href='/'
+                      className='cursor-pointer'
+                      onClick={handleOptionClick}
+                    >
                       <Image
                         src='/assets/img/logo.webp'
                         width={100}
@@ -71,80 +73,68 @@ const MobileMenu = () => {
                       <Link
                         href='/'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:text-primary'
+                        onClick={handleOptionClick}
                       >
                         Inicio
                       </Link>
                       <Link
                         href='/conocenos'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:border-b-2 hover:border-primary'
+                        onClick={handleOptionClick}
                       >
                         Conócenos
                       </Link>
-                      <Link
+                      {/* <Link
                         href='/sostenibilidad'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:border-b-4 hover:border-primary'
+                        onClick={handleOptionClick}
                       >
                         Sostenibilidad
-                      </Link>
+                      </Link> */}
                       <Link
-                        href='#'
+                        href='/productos'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:border-b-4 hover:border-primary'
+                        onClick={handleOptionClick}
                       >
                         Productos
                       </Link>
                       <ul>
                         <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
                           <Link
-                          href='/productos/cajas'
+                            href='/productos/ecologico'
+                            onClick={handleOptionClick}
                           >
-                          Cajas y Palets
+                            Embalaje Ecológico
                           </Link>
                         </li>
                         <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
+                          <Link
+                            href='/productos/maquinaria'
+                            onClick={handleOptionClick}
                           >
-                          Cajas y Palets
+                            Maquinaria
                           </Link>
                         </li>
                         <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
+                          <Link
+                            href='/productos/embalaje'
+                            onClick={handleOptionClick}
                           >
-                          Cajas y Palets
-                          </Link>
-                        </li>
-                        <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Cajas y Palets
-                          </Link>
-                        </li>
-                        <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Cajas y Palets
-                          </Link>
-                        </li>
-                        <li className='text-sm text-primary hover:text-gray-900 hover:border-b-2 hover:border-primary'>
-                        <Link
-                          href='/productos/cajas'
-                          >
-                          Cajas y Palets
+                            Material de Embalaje
                           </Link>
                         </li>
                       </ul>
                       <Link
-                        href='#'
+                        href='/actualidad'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:border-b-4 hover:border-primary'
+                        onClick={handleOptionClick}
                       >
                         Actualidad
                       </Link>
                       <Link
                         href='/contacto'
                         className='block px-3 py-2 text-gray-900 rounded-md focus:outline-none hover:border-b-4 hover:border-primary'
+                        onClick={handleOptionClick}
                       >
                         Contacto
                       </Link>

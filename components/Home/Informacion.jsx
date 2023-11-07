@@ -25,10 +25,14 @@ const Informacion = () => {
                   <h1 className='text-xl font-bold text-white mb-4'>
                     ¿ Quieres más información ?
                   </h1>
-                  <p className=' text-white'>
-                    Si quieres saber más sobre nosotros o nuestros productos...
+                  <p className='p-2 text-white'>
+                    PartnerPack ofrece mucho más que sistemas, maquinaria,
+                    finales de línea y consumibles de embalaje. Ofrece
+                    soluciones. Cuánto más describas tu necesidad o proceso,
+                    mejor podremos adaptar la solución.
                     <br />
-                    Llámanos sin compromiso, te atenderemos encantados
+                    Por favor, no dejes de preguntarnos, estaremos encantados de
+                    hablar contigo.
                   </p>
                   <Link href={"/contacto"} className='btn-white mt-4'>
                     Contacto
@@ -73,7 +77,7 @@ const Informacion = () => {
                   <h1 className='text-xl font-bold  text-white mb-4'>
                     R-Evoluciona
                   </h1>
-                  <p className=' text-white'>
+                  <p className='p-2 text-white'>
                     Con la optimización de los procesos productivos mediante
                     automatización y mejora de las soluciones y materiales
                     aplicados al desarrollo de la actividad, se consigue la
@@ -81,7 +85,7 @@ const Informacion = () => {
                     diferenciación del producto de cara al consumidor final.
                   </p>
                   <Link href={"/sostenibilidad"} className='btn-white mt-4'>
-                    Informate
+                    Infórmate
                   </Link>
                 </div>
               </div>

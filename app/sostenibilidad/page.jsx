@@ -4,7 +4,7 @@ import Sostenibilidad from "@/components/Sostenibilidad/Sostenibilidad";
 
 const PageSostenibilidad = () => {
   return (
-    <div>
+    <div className='mt-28'>
       <div>
         <Cover urlCover='/assets/img/cover/sostenibilidad.webp' />
       </div>

@@ -23,6 +23,7 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
           'footer': "url('/assets/img/logo.webp')",
+        'ecologico': "url('/assets/img/ecologico/3r.webp')",
       },
       fontFamily: {
         sans: 'Roboto',

@@ -3,7 +3,7 @@ import Productos from '@/components/Productos/Productos';
 
 const PageProductos = () => {
   return (
-    <div>
+    <div className='mt-28'>
         <Productos />
     </div>
   )

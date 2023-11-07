@@ -1,14 +1,10 @@
-"use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 
-const DropdownMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  }
-
+const DropdownMenu = ({ isOpen, closeMenu }) => {
+  const handleOptionClick = () => {
+    closeMenu();
+  };
 
   return (
     <>
@@ -16,7 +12,7 @@ const DropdownMenu = () => {
         id='dropdownNavbarLink'
         data-dropdown-toggle='dropdownNavbar'
         className='relative flex items-center justify-between w-full text-gray-900 rounded md:pb-2 hover:border-b-4 hover:border-primary active:text-primary'
-        onClick={handleClick}
+        onClick={handleOptionClick}
       >
         Productos{" "}
         <svg
@@ -37,41 +33,43 @@ const DropdownMenu = () => {
       </button>
       {isOpen ? (
         <div
-        id='dropdownNavbar'
-        className="absolute bg-white z-10 rounded-lg shadown w-44 text-primary"
-      >
-        <ul
-          className='py-2 text-sm text-primary dark:text-gray-400'
-          aria-labelledby='dropdownLargeButton'
+          id='dropdownNavbar'
+          className='absolute bg-white z-10 rounded-lg shadown w-44 text-primary'
         >
-          <li>
-            <Link
-              href='#'
-              className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-            >
-              Dashboard
-            </Link>
-          </li>
-          <li>
-            <Link
-              href='#'
-              className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-            >
-              Settings
-            </Link>
-          </li>
-          <li>
-            <Link
-              href='#'
-              className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-            >
-              Earnings
-            </Link>
-          </li>
-        </ul>
-        
-      </div> ): null}
-      
+          <ul
+            className='py-2 text-sm text-primary dark:text-gray-400'
+            aria-labelledby='dropdownLargeButton'
+          >
+            <li>
+              <Link
+                href='/productos/ecologico'
+                className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                onClick={handleOptionClick}
+              >
+                Embalaje Ecológico
+              </Link>
+            </li>
+            <li>
+              <Link
+                href='/productos/maquinaria'
+                className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                onClick={handleOptionClick}
+              >
+                Maquinaria
+              </Link>
+            </li>
+            <li>
+              <Link
+                href='/productos/embalaje'
+                className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                onClick={handleOptionClick}
+              >
+                Material de Embalaje
+              </Link>
+            </li>
+          </ul>
+        </div>
+      ) : null}
     </>
   );
 };
