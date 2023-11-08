@@ -71,7 +71,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href='#'
+                  href='/actualidad'
                   className='block text-gray-900 md:pb-2 hover:border-b-4 hover:border-primary active:text-primary'
                 >
                   Actualidad

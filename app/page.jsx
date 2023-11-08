@@ -9,7 +9,7 @@ import ButtonInit from "@/components/ButtonInit/ButtonInit";
 const Home = () => {
   return (
     <main className='mt-28' id="init">
-      <Cover urlCover='/assets/img/cover/feria.webp' />
+      <Cover urlCover='/assets/img/cover/banderas.webp' />
       <Informacion />
       <Productos />
       <div className='container mx-auto px-5 py-8'>
