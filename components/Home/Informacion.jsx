@@ -22,10 +22,10 @@ const Informacion = () => {
                   className='rounded-lg max-w-full max-h-full'
                 />
                 <div className='absolute rounded-lg top-0 left-0 w-full h-full bg-primary/50 flex flex-col items-center justify-center'>
-                  <h1 className='text-xl font-bold text-white mb-4'>
+                  <h1 className='text-sm md:text-xl font-bold text-white mb-0 md:mb-4'>
                     ¿ Quieres más información ?
                   </h1>
-                  <p className='p-2 text-white'>
+                  <p className='p-0 md:p-2 text-xs md:text-base text-white'>
                     PartnerPack ofrece mucho más que sistemas, maquinaria,
                     finales de línea y consumibles de embalaje. Ofrece
                     soluciones. Cuánto más describas tu necesidad o proceso,
@@ -34,7 +34,7 @@ const Informacion = () => {
                     Por favor, no dejes de preguntarnos, estaremos encantados de
                     hablar contigo.
                   </p>
-                  <Link href={"/contacto"} className='btn-white mt-4'>
+                  <Link href={"/contacto"} className='btn-white mt-0 md:mt-4'>
                     Contacto
                   </Link>
                 </div>
@@ -74,10 +74,10 @@ const Informacion = () => {
                   className='rounded-lg max-w-full max-h-full'
                 />
                 <div className='absolute rounded-lg top-0 left-0 w-full h-full bg-primary/50 flex flex-col items-center justify-center'>
-                  <h1 className='text-xl font-bold  text-white mb-4'>
+                  <h1 className='text-sm md:text-xl font-bold text-white mb-0 md:mb-4'>
                     R-Evoluciona
                   </h1>
-                  <p className='p-2 text-white'>
+                  <p className='p-0 md:p-2 text-xs md:text-base text-white'>
                     Con la optimización de los procesos productivos mediante
                     automatización y mejora de las soluciones y materiales
                     aplicados al desarrollo de la actividad, se consigue la

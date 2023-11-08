@@ -12,7 +12,7 @@ const Formulario = () => {
         priority={true}
         className='object-cover w-full h-full rounded-lg'
       />
-      <div className='absolute bottom-0 md:bottom-8 right-0 md:right-6 flex items-center md:items-start'>
+      <div className='absolute bottom-8 right-[-48px] md:right-6 flex items-center md:items-start'>
         <FormContacto />
       </div>
     </div>

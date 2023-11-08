@@ -20,7 +20,7 @@ const PageConocenos = () => {
               <hr className='border-secondary-light mb-4 border-1 w-24 rounded-md' />
             </div>
           </div>
-          <Formulario />
+        
         </div>
       </div>
       <HomeContacto />
