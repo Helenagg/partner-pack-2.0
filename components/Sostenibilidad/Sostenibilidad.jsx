@@ -38,8 +38,8 @@ const Sostenibilidad = () => {
           />
           <div className='absolute inset-0 bg-secondary opacity-30 rounded-lg'></div>
         </div>
-        <div className='absolute text-white font-bold w-2/3 p-4'>
-          <p>
+        <div className='absolute text-xs md:text-base text-white font-bold w-full md:w-2/3 p-4'>
+          <p className="">
             Te acompañamos en la toma de decisiones para la transición entre tus
             procesos de embalaje actuales y la transformación R-Evolucionaria
             hacia procesos de embalaje realmente sostenibles y circulares
@@ -60,7 +60,7 @@ const Sostenibilidad = () => {
                 <div className='px-6 py-4'>
                   <div className='font-bold text-xl mb-2'>{element.name}</div>
                   <div
-                    className='text-secondary text-base'
+                    className='text-secondary text-xs md:text-base'
                     dangerouslySetInnerHTML={{ __html: element.content }}
                   />
                 </div>

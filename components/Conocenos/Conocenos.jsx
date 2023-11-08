@@ -41,7 +41,7 @@ const Conocenos = () => {
                 ¡retanos! (Me prestas tus zapatos y luego los devuelvo).
               </p>
               <div className='mt-2'>
-              <Link href='/contacto' className='btn-white mx-40 mt-6'>
+              <Link href='/contacto' className='btn-white md:mx-40 mt-6'>
                 Contacto
               </Link>
               </div>

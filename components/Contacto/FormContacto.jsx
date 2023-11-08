@@ -2,7 +2,7 @@ import React from "react";
 
 const FormContacto = () => {
   return (
-    <div className='relative flex justify-center mt-[-200px] z-1'>
+    <div className='relative flex justify-center mt-[-200px] ml-10 md:ml-0 z-1 w-3/4 md:w-full'>
       <div className='relative rounded-3xl flex flex-col sm:justify-center items-center bg-gray-100 w-96'>
         <div className='relative sm:max-w-sm w-full rounded-lg'>
           <div className='card bg-secondary-light shadow-lg w-full h-full rounded-3xl absolute transform -rotate-6'></div>
