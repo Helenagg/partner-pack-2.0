@@ -39,7 +39,7 @@ const Sostenibilidad = () => {
           <div className='absolute inset-0 bg-secondary opacity-30 rounded-lg'></div>
         </div>
         <div className='absolute text-xs md:text-base text-white font-bold w-full md:w-2/3 p-4'>
-          <p className="">
+          <p>
             Te acompañamos en la toma de decisiones para la transición entre tus
             procesos de embalaje actuales y la transformación R-Evolucionaria
             hacia procesos de embalaje realmente sostenibles y circulares

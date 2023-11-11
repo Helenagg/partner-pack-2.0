@@ -12,7 +12,7 @@ const PageConocenos = () => {
         <Cover urlCover='/assets/img/cover/conocenos.webp' />
       </div>
       <Conocenos />
-      <div className='container mx-auto px-5 py-8 md:mt-60'>
+      <div className='container mx-auto px-5 py-8 md:mt-2'>
         <div className='text-center mb-2'>
           <Colaboradores />
           <div className='text-center mb-2 mt-2'>

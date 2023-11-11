@@ -15,7 +15,7 @@ const Conocenos = () => {
         <div className='lg:flex'>
           <div className='w-full flex flex-col md:w-2/3 md:relative rounded-lg'>
             <Image
-              src='/assets/img/cover/conocenos.webp'
+              src='/assets/img/informacion/conocenos.webp'
               width={1980}
               height={980}
               alt='Conocenos'
