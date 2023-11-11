@@ -14,26 +14,26 @@ const pageEmbalaje = () => {
       content:
         "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
     },
-    {
-      url: "/assets/img/maquinaria/robot-copalletizer.webp",
-      nameCaja: "Robot copalletizer",
-      width: "480",
-      height: "270",
-      slug: "/contacto",
-      textSlug: "Contacto",
-      content:
-        "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
-    },
-    {
-      url: "/assets/img/maquinaria/programa-copaletizador.webp",
-      nameCaja: "Programa Copaletizador",
-      width: "2048",
-      height: "1365",
-      slug: "/contacto",
-      textSlug: "Contacto",
-      content:
-        "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
-    },
+    // {
+    //   url: "/assets/img/maquinaria/robot-copalletizer.webp",
+    //   nameCaja: "Robot copalletizer",
+    //   width: "480",
+    //   height: "270",
+    //   slug: "/contacto",
+    //   textSlug: "Contacto",
+    //   content:
+    //     "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+    // },
+    // {
+    //   url: "/assets/img/maquinaria/programa-copaletizador.webp",
+    //   nameCaja: "Programa Copaletizador",
+    //   width: "2048",
+    //   height: "1365",
+    //   slug: "/contacto",
+    //   textSlug: "Contacto",
+    //   content:
+    //     "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+    // },
     {
       url: "/assets/img/maquinaria/formadora-de-cajas.webp",
       nameCaja: "Formadora de cajas",
@@ -44,26 +44,26 @@ const pageEmbalaje = () => {
       content:
         "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
     },
-    {
-      url: "/assets/img/maquinaria/maschinen-stretchfolie.webp",
-      nameCaja: "Stretchfolie",
-      width: "626",
-      height: "388",
-      slug: "/contacto",
-      textSlug: "Contacto",
-      content:
-        "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
-    },
-    {
-      url: "/assets/img/maquinaria/pinza-film.webp",
-      nameCaja: "Pinza film",
-      width: "516",
-      height: "344",
-      slug: "/contacto",
-      textSlug: "Contacto",
-      content:
-        "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
-    },
+    // {
+    //   url: "/assets/img/maquinaria/maschinen-stretchfolie.webp",
+    //   nameCaja: "Stretchfolie",
+    //   width: "626",
+    //   height: "388",
+    //   slug: "/contacto",
+    //   textSlug: "Contacto",
+    //   content:
+    //     "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+    // },
+    // {
+    //   url: "/assets/img/maquinaria/pinza-film.webp",
+    //   nameCaja: "Pinza film",
+    //   width: "516",
+    //   height: "344",
+    //   slug: "/contacto",
+    //   textSlug: "Contacto",
+    //   content:
+    //     "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+    // },
     {
       url: "/assets/img/maquinaria/precintadora.webp",
       nameCaja: "Precintadora",
@@ -75,8 +75,8 @@ const pageEmbalaje = () => {
         "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
     },
     {
-      url: "/assets/img/maquinaria/precinto-automatico.webp",
-      nameCaja: "Precinto automático",
+      url: "/assets/img/maquinaria/enfardadora.automatica.webp",
+      nameCaja: "Enfardadora automática",
       width: "2064",
       height: "1376",
       slug: "/contacto",

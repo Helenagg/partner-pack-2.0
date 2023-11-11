@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Link from "next/link";
+import Formulario from "../Home/Formulario";
 
 const Productos = () => {
   const url = [
@@ -62,6 +63,14 @@ const Productos = () => {
               );
             })}
           </div>
+        </div>
+      </div>
+      <div className='container mx-auto px-5 py-8'>
+        <div className='text-center mb-2'>
+          <div className='flex justify-center'>
+            <hr className='border-secondary-light mb-4 border-1 w-24 rounded-md' />
+          </div>
+          <Formulario />
         </div>
       </div>
     </div>
