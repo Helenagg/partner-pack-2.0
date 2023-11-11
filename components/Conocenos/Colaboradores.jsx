@@ -33,7 +33,7 @@ const Colaboradores = () => {
           <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
         </div>
       </div>
-      <div className='text-primary rounded-lg bg-white shadow-lg p-4'>
+      <div className='text-secondary rounded-lg bg-white shadow-lg p-4'>
         <p className='text-left'>
           Apostamos por las soluciones de calidad y proximidad. Tenemos la
           suerte de colaborar con grandes empresas multinacionales cuyas plantas
