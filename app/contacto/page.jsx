@@ -4,7 +4,7 @@ import Contacto from "@/components/Contacto/Contacto";
 
 const PageContacto = () => {
   return (
-    <div>
+    <div className="mt-28">
       <div>
         <Cover urlCover='/assets/img/cover/contacto.webp' />
       </div>

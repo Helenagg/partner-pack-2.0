@@ -7,9 +7,9 @@ import Link from "next/link";
 
 const ContactFooter = () => {
   return (
-    <div className='flex flex-col w-1/4 mx-4'>
-      <h1 className='text-xl p-4'>Contacto</h1>
-      <hr className='border-secondary-light m-2 border-1 w-24 rounded-md' />
+    <div className='flex flex-col w-full md:w-1/4 mx-4'>
+      <h1 className='text-xl p-2 md:p-4'>Contacto</h1>
+      <hr className='border-secondary-light m-0 md:m-2 border-1 w-3/4 md:w-24 rounded-md' />
       <div className='flex flex-inline mt-3 text-sm'>
         <Link
           href='https://goo.gl/maps/2V6zaA55KFXeTDTE6'

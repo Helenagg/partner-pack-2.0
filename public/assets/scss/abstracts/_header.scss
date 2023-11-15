@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    &.sticky-header {
+        .sticky-logo {
+            display: none;
+        }
+
+        &.sticky-on {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            animation: sticky 1.2s;
+            box-shadow: 0px 2px 14px 0px rgba(56, 81, 145, 0.59);
+            background-color: $color-white;
+
+            .nav-menu ul {
+                li {
+                    line-height: 95px;
+                }
+            }
+
+            .sticky-logo {
+                display: block;
+            }
+
+            .main-logo {
+                display: none;
+            }
+        }
+
+        &.bordered-header {
+            &.sticky-on {
+                background-color: $color-dark-3;
+                box-shadow: none;
+                border-bottom: 2px solid $color-dark-4;
+
+                .header-inner {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}
